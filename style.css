@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .choices button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
+  .results p {
+    margin-bottom: 10px;
+  }
+  
+  .results img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  #winner {
+    font-size: 20px;
+    font-weight: bold;
+  }
